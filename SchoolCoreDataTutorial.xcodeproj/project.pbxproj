@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD03C93F2A28921A00FF82A5 /* ClassDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03C93E2A28921A00FF82A5 /* ClassDetailsScreen.swift */; };
+		FD03C9412A2898CB00FF82A5 /* AddStudentToClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03C9402A2898CB00FF82A5 /* AddStudentToClass.swift */; };
+		FD1FF3FF2A25EF0C0009D220 /* ChangeTeacherScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1FF3FE2A25EF0C0009D220 /* ChangeTeacherScreen.swift */; };
+		FD1FF4042A2613640009D220 /* AddNewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1FF4032A2613640009D220 /* AddNewClass.swift */; };
+		FD1FF4122A2645520009D220 /* AddPureStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1FF4112A2645520009D220 /* AddPureStudent.swift */; };
+		FD8CF39A2A24B87C00A5D883 /* SchoolCoreDataTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8CF3992A24B87C00A5D883 /* SchoolCoreDataTutorialApp.swift */; };
+		FD8CF39C2A24B87C00A5D883 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8CF39B2A24B87C00A5D883 /* ContentView.swift */; };
+		FD8CF39E2A24B87E00A5D883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8CF39D2A24B87E00A5D883 /* Assets.xcassets */; };
+		FD8CF3A12A24B87E00A5D883 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8CF3A02A24B87E00A5D883 /* Preview Assets.xcassets */; };
+		FD8CF3A92A24B89A00A5D883 /* School.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD8CF3A72A24B89A00A5D883 /* School.xcdatamodeld */; };
+		FD8CF3AB2A24B8C100A5D883 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8CF3AA2A24B8C100A5D883 /* DataController.swift */; };
+		FD8CF3AD2A24D29700A5D883 /* AddNewTeacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8CF3AC2A24D29700A5D883 /* AddNewTeacher.swift */; };
+		FD8CF3B12A24D4DB00A5D883 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8CF3B02A24D4DB00A5D883 /* Extensions.swift */; };
+		FD8CF3B52A24EC2C00A5D883 /* TeacherDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8CF3B42A24EC2C00A5D883 /* TeacherDetailsScreen.swift */; };
+		FD8CF3B72A24F2B900A5D883 /* AddTeachersStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8CF3B62A24F2B900A5D883 /* AddTeachersStudent.swift */; };
+		FD8CF3D12A25004500A5D883 /* StudentDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8CF3D02A25004500A5D883 /* StudentDetailsScreen.swift */; };
+		FD9CB5B42A2758D70027F6CA /* Teacher+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9CB5AE2A2758D70027F6CA /* Teacher+CoreDataClass.swift */; };
+		FD9CB5B52A2758D70027F6CA /* Teacher+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9CB5AF2A2758D70027F6CA /* Teacher+CoreDataProperties.swift */; };
+		FD9CB5B62A2758D70027F6CA /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9CB5B02A2758D70027F6CA /* Student+CoreDataClass.swift */; };
+		FD9CB5B72A2758D70027F6CA /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9CB5B12A2758D70027F6CA /* Student+CoreDataProperties.swift */; };
+		FD9CB5B82A2758D70027F6CA /* SomeClass+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9CB5B22A2758D70027F6CA /* SomeClass+CoreDataClass.swift */; };
+		FD9CB5B92A2758D70027F6CA /* SomeClass+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9CB5B32A2758D70027F6CA /* SomeClass+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD03C93E2A28921A00FF82A5 /* ClassDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassDetailsScreen.swift; sourceTree = "<group>"; };
+		FD03C9402A2898CB00FF82A5 /* AddStudentToClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentToClass.swift; sourceTree = "<group>"; };
+		FD1FF3FE2A25EF0C0009D220 /* ChangeTeacherScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeTeacherScreen.swift; sourceTree = "<group>"; };
+		FD1FF4032A2613640009D220 /* AddNewClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewClass.swift; sourceTree = "<group>"; };
+		FD1FF4112A2645520009D220 /* AddPureStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPureStudent.swift; sourceTree = "<group>"; };
+		FD8CF3962A24B87C00A5D883 /* SchoolCoreDataTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolCoreDataTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8CF3992A24B87C00A5D883 /* SchoolCoreDataTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolCoreDataTutorialApp.swift; sourceTree = "<group>"; };
+		FD8CF39B2A24B87C00A5D883 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD8CF39D2A24B87E00A5D883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD8CF3A02A24B87E00A5D883 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD8CF3A82A24B89A00A5D883 /* Student.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Student.xcdatamodel; sourceTree = "<group>"; };
+		FD8CF3AA2A24B8C100A5D883 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		FD8CF3AC2A24D29700A5D883 /* AddNewTeacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTeacher.swift; sourceTree = "<group>"; };
+		FD8CF3B02A24D4DB00A5D883 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FD8CF3B42A24EC2C00A5D883 /* TeacherDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherDetailsScreen.swift; sourceTree = "<group>"; };
+		FD8CF3B62A24F2B900A5D883 /* AddTeachersStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeachersStudent.swift; sourceTree = "<group>"; };
+		FD8CF3D02A25004500A5D883 /* StudentDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailsScreen.swift; sourceTree = "<group>"; };
+		FD9CB5AE2A2758D70027F6CA /* Teacher+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Teacher+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FD9CB5AF2A2758D70027F6CA /* Teacher+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Teacher+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FD9CB5B02A2758D70027F6CA /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FD9CB5B12A2758D70027F6CA /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FD9CB5B22A2758D70027F6CA /* SomeClass+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SomeClass+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FD9CB5B32A2758D70027F6CA /* SomeClass+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SomeClass+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD8CF3932A24B87C00A5D883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD1FF4002A2611FA0009D220 /* Teachers */ = {
+			isa = PBXGroup;
+			children = (
+				FD8CF3AC2A24D29700A5D883 /* AddNewTeacher.swift */,
+				FD8CF3B42A24EC2C00A5D883 /* TeacherDetailsScreen.swift */,
+				FD8CF3B62A24F2B900A5D883 /* AddTeachersStudent.swift */,
+			);
+			path = Teachers;
+			sourceTree = "<group>";
+		};
+		FD1FF4012A2612170009D220 /* Students */ = {
+			isa = PBXGroup;
+			children = (
+				FD8CF3D02A25004500A5D883 /* StudentDetailsScreen.swift */,
+				FD1FF3FE2A25EF0C0009D220 /* ChangeTeacherScreen.swift */,
+				FD1FF4112A2645520009D220 /* AddPureStudent.swift */,
+			);
+			path = Students;
+			sourceTree = "<group>";
+		};
+		FD1FF4022A2612400009D220 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FD1FF4032A2613640009D220 /* AddNewClass.swift */,
+				FD03C93E2A28921A00FF82A5 /* ClassDetailsScreen.swift */,
+				FD03C9402A2898CB00FF82A5 /* AddStudentToClass.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FD8CF38D2A24B87C00A5D883 = {
+			isa = PBXGroup;
+			children = (
+				FD8CF3982A24B87C00A5D883 /* SchoolCoreDataTutorial */,
+				FD8CF3972A24B87C00A5D883 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD8CF3972A24B87C00A5D883 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD8CF3962A24B87C00A5D883 /* SchoolCoreDataTutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD8CF3982A24B87C00A5D883 /* SchoolCoreDataTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				FD8CF39D2A24B87E00A5D883 /* Assets.xcassets */,
+				FD8CF39F2A24B87E00A5D883 /* Preview Content */,
+				FD8CF3A72A24B89A00A5D883 /* School.xcdatamodeld */,
+				FD8CF3992A24B87C00A5D883 /* SchoolCoreDataTutorialApp.swift */,
+				FD8CF3B32A24D57200A5D883 /* ViewModels */,
+				FD8CF3B22A24D56300A5D883 /* Views */,
+			);
+			path = SchoolCoreDataTutorial;
+			sourceTree = "<group>";
+		};
+		FD8CF39F2A24B87E00A5D883 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FD8CF3A02A24B87E00A5D883 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD8CF3B22A24D56300A5D883 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD8CF39B2A24B87C00A5D883 /* ContentView.swift */,
+				FD1FF4022A2612400009D220 /* Classes */,
+				FD1FF4012A2612170009D220 /* Students */,
+				FD1FF4002A2611FA0009D220 /* Teachers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD8CF3B32A24D57200A5D883 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FD9CB5852A2756200027F6CA /* DataClasses */,
+				FD8CF3B02A24D4DB00A5D883 /* Extensions.swift */,
+				FD8CF3AA2A24B8C100A5D883 /* DataController.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FD9CB5852A2756200027F6CA /* DataClasses */ = {
+			isa = PBXGroup;
+			children = (
+				FD9CB5AE2A2758D70027F6CA /* Teacher+CoreDataClass.swift */,
+				FD9CB5AF2A2758D70027F6CA /* Teacher+CoreDataProperties.swift */,
+				FD9CB5B02A2758D70027F6CA /* Student+CoreDataClass.swift */,
+				FD9CB5B12A2758D70027F6CA /* Student+CoreDataProperties.swift */,
+				FD9CB5B22A2758D70027F6CA /* SomeClass+CoreDataClass.swift */,
+				FD9CB5B32A2758D70027F6CA /* SomeClass+CoreDataProperties.swift */,
+			);
+			path = DataClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD8CF3952A24B87C00A5D883 /* SchoolCoreDataTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD8CF3A42A24B87E00A5D883 /* Build configuration list for PBXNativeTarget "SchoolCoreDataTutorial" */;
+			buildPhases = (
+				FD8CF3922A24B87C00A5D883 /* Sources */,
+				FD8CF3932A24B87C00A5D883 /* Frameworks */,
+				FD8CF3942A24B87C00A5D883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchoolCoreDataTutorial;
+			productName = SchoolCoreDataTutorial;
+			productReference = FD8CF3962A24B87C00A5D883 /* SchoolCoreDataTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD8CF38E2A24B87C00A5D883 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FD8CF3952A24B87C00A5D883 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = FD8CF3912A24B87C00A5D883 /* Build configuration list for PBXProject "SchoolCoreDataTutorial" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD8CF38D2A24B87C00A5D883;
+			productRefGroup = FD8CF3972A24B87C00A5D883 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD8CF3952A24B87C00A5D883 /* SchoolCoreDataTutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD8CF3942A24B87C00A5D883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD8CF3A12A24B87E00A5D883 /* Preview Assets.xcassets in Resources */,
+				FD8CF39E2A24B87E00A5D883 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD8CF3922A24B87C00A5D883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1FF4042A2613640009D220 /* AddNewClass.swift in Sources */,
+				FD8CF39C2A24B87C00A5D883 /* ContentView.swift in Sources */,
+				FD8CF3AB2A24B8C100A5D883 /* DataController.swift in Sources */,
+				FD8CF3AD2A24D29700A5D883 /* AddNewTeacher.swift in Sources */,
+				FD9CB5B62A2758D70027F6CA /* Student+CoreDataClass.swift in Sources */,
+				FD8CF3B72A24F2B900A5D883 /* AddTeachersStudent.swift in Sources */,
+				FD9CB5B92A2758D70027F6CA /* SomeClass+CoreDataProperties.swift in Sources */,
+				FD03C9412A2898CB00FF82A5 /* AddStudentToClass.swift in Sources */,
+				FD8CF39A2A24B87C00A5D883 /* SchoolCoreDataTutorialApp.swift in Sources */,
+				FD03C93F2A28921A00FF82A5 /* ClassDetailsScreen.swift in Sources */,
+				FD9CB5B42A2758D70027F6CA /* Teacher+CoreDataClass.swift in Sources */,
+				FD1FF3FF2A25EF0C0009D220 /* ChangeTeacherScreen.swift in Sources */,
+				FD9CB5B52A2758D70027F6CA /* Teacher+CoreDataProperties.swift in Sources */,
+				FD9CB5B72A2758D70027F6CA /* Student+CoreDataProperties.swift in Sources */,
+				FD8CF3A92A24B89A00A5D883 /* School.xcdatamodeld in Sources */,
+				FD8CF3B12A24D4DB00A5D883 /* Extensions.swift in Sources */,
+				FD8CF3D12A25004500A5D883 /* StudentDetailsScreen.swift in Sources */,
+				FD9CB5B82A2758D70027F6CA /* SomeClass+CoreDataClass.swift in Sources */,
+				FD8CF3B52A24EC2C00A5D883 /* TeacherDetailsScreen.swift in Sources */,
+				FD1FF4122A2645520009D220 /* AddPureStudent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FD8CF3A22A24B87E00A5D883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD8CF3A32A24B87E00A5D883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD8CF3A52A24B87E00A5D883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SchoolCoreDataTutorial/Preview Content\"";
+				DEVELOPMENT_TEAM = XHTY5N4472;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ditbetalingssystem.dk.SchoolCoreDataTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD8CF3A62A24B87E00A5D883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SchoolCoreDataTutorial/Preview Content\"";
+				DEVELOPMENT_TEAM = XHTY5N4472;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ditbetalingssystem.dk.SchoolCoreDataTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD8CF3912A24B87C00A5D883 /* Build configuration list for PBXProject "SchoolCoreDataTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD8CF3A22A24B87E00A5D883 /* Debug */,
+				FD8CF3A32A24B87E00A5D883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD8CF3A42A24B87E00A5D883 /* Build configuration list for PBXNativeTarget "SchoolCoreDataTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD8CF3A52A24B87E00A5D883 /* Debug */,
+				FD8CF3A62A24B87E00A5D883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD8CF3A72A24B89A00A5D883 /* School.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD8CF3A82A24B89A00A5D883 /* Student.xcdatamodel */,
+			);
+			currentVersion = FD8CF3A82A24B89A00A5D883 /* Student.xcdatamodel */;
+			path = School.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FD8CF38E2A24B87C00A5D883 /* Project object */;
+}
